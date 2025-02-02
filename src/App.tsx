@@ -6,7 +6,7 @@ const App: React.FC = () => {
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     const target = e.currentTarget;
-    if (!target || !target.id) return; // Säkerställ att target existerar
+    if (!target || !target.id) return; 
     setResult((prev) => prev + target.id);
   };
 
